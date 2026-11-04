@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-spotify-project-chey"
+		},
+		"azure_sql_chey_password": {
+			"value": ""
+		},
+		"data_lake_chey_accountKey": {
+			"value": ""
+		},
+		"azure_sql_chey_properties_typeProperties_server": {
+			"value": "spotifyazureserverchey.database.windows.net"
+		},
+		"azure_sql_chey_properties_typeProperties_database": {
+			"value": "spotifydbchey"
+		},
+		"azure_sql_chey_properties_typeProperties_userName": {
+			"value": "adminchey"
+		},
+		"data_lake_chey_properties_typeProperties_url": {
+			"value": "https://spotifystoragechey.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
